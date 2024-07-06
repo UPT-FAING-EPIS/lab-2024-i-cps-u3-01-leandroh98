@@ -6,7 +6,9 @@ env:
   SONAR_PROJECT: 'leandroh98_bancaapp'        # Key ID del proyecto de sonar
 on:
   push:
-    branches: [ "main" ]
+    branches: 
+      - main
+      - bddreporte
   workflow_dispatch:
 
 jobs:
